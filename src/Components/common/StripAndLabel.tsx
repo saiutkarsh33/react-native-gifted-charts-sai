@@ -32,7 +32,7 @@ export const StripAndLabel = props => {
   } = props;
   let left = 0,
     top = 0;
-  if (autoAdjustPointerLabelPosition) {
+  if (true) {
     if (pointerX < pointerLabelWidth / 2) {
       left = 7;
     } else if (
