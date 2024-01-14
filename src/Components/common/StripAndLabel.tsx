@@ -39,7 +39,7 @@ export const StripAndLabel = props => {
       activatePointersOnLongPress &&
       pointerX - scrollX < pointerLabelWidth / 2 - 10
     ) {
-      left = 7;
+      left = 0;
     } else {
       if (
         !activatePointersOnLongPress &&
@@ -58,7 +58,7 @@ export const StripAndLabel = props => {
       ) {
         left = -pointerLabelWidth - 4;
       } else {
-        left = -pointerLabelWidth / 2 + 5;
+        left = -pointerLabelWidth / 2 - 23;
       }
     }
   } else {

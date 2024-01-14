@@ -1,5 +1,5 @@
 {
-  "name": "react-native-gifted-charts",
+  "name": "react-native-gifted-charts-sai",
   "version": "1.3.31",
   "description": "The most complete library for Bar, Line, Area, Pie, Donut, Stacked Bar and Population Pyramid charts in React Native. Allows 2D, 3D, gradient, animations and live data updates.",
   "main": "src/index.tsx",
@@ -13,17 +13,18 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "repository": "https://github.com/Abhinandan-Kushwaha/react-native-gifted-charts",
-  "author": "Abhinandan Kushwaha <kushabhi5@gmail.com> (https://github.com/Abhinandan-Kushwaha)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saiutkarsh33/react-native-gifted-charts-sai.git"
+  },
+  "author": "Sai Utkarh <saiutkarsh33@gmail.com> (https://github.com/saiutkarsh33)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Abhinandan-Kushwaha/react-native-gifted-charts/issues"
+    "url": "https://github.com/saiutkarsh33/react-native-gifted-charts-sai/issues"
   },
   "homepage": "https://gifted-charts.web.app/",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -63,5 +64,9 @@
     "react",
     "react native",
     "react-native"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  }
 }
